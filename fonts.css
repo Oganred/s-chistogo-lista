@@ -8,12 +8,12 @@
     font-family: 'ebgaramondregular';
     font-weight: 400;
 }
-font-face {
+@font-face {
     src: url(./fonts/fonts.css);
     font-family: 'interregular';
     font-weight: 400;
 }
-font-face {
+@font-face {
     src: url(./fonts/fonts.css);
     font-family: 'interbold';
     font-weight: 700;
