@@ -1,0 +1,32 @@
+body
+{
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquot
+{
+  margin: 0;
+  padding: 0;
+}
+.content-section
+{
+box-sizing: border-box;
+width: 360px;
+display: inline-block;
+padding: auto;
+margin: auto;
+}
+.content-section_theme_bright
+{
+  background-color: #f5e724;
+  height: 100;
+  color: black;
+}
+.content-section_theme_dark
+{
+  background-color: #1e1e1e;
+  height: 100;
+  color: white;
+}
