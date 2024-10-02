@@ -8,20 +8,29 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquot {
   margin: 0;
   padding: 0;
 }
+header {
+  padding: 20px 24px;
+}
+main {
+  padding: 20px 30px;
+}
+li {
+  color:aliceblue;
+}
 .content-section {
 box-sizing: border-box;
 width: 360px;
-display: inline-block;
-padding: auto;
-margin: auto;
+display: block;
+padding: 0;
+margin: 0 auto;
 }
 .content-section_theme_bright {
-  background-color: #f5e724;
-  height: 100;
+  background-color: #FEE42A;
   color: black;
+  padding: 20px 40px;
 }
 .content-section_theme_dark {
-  background-color: #1e1e1e;
-  height: 100;
+  background-color: #343434;
   color: white;
+  padding: 20px 40px;
 }
