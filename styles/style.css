@@ -8,19 +8,32 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquot {
   margin: 0;
   padding: 0;
 }
-header {
+.header {
+  display: flex;
   padding: 20px 24px;
+}
+.header__logo-image {
+  width: 78.45px;
+  height: 15.43px;
+  padding: 20px 24px 168px 92.57px;
+}
+.header__menu-list {
+  list-style: none;
+  padding: 24px 18.55px 24px 168px;
+  width: 65px;
+  height: 84px;
+}
+.header__menu-link {
+text-decoration: none;
+color: #fff;
 }
 main {
   padding: 20px 30px;
 }
-li {
-  color:aliceblue;
-}
 .content-section {
 box-sizing: border-box;
 width: 360px;
-display: block;
+display: flex;
 padding: 0;
 margin: 0 auto;
 }
