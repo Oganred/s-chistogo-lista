@@ -10,19 +10,28 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquot {
 }
 .header {
   display: flex;
-  padding: 20px 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 20px;
+  margin-bottom: 7px;
 }
-.header__logo-image {
+.header__logo {
+  display: flex;
   width: 78.45px;
   height: 15.43px;
-  padding: 20px 24px 168px 92.57px;
+  padding: 24px 168px 92.75px 20px;
 }
 .header__menu-list {
   list-style: none;
-  padding: 24px 18.55px 24px 168px;
+  padding: 18.55px 24px 168px 24px;
   width: 65px;
   height: 84px;
 }
+.header__menu-item {
+  font-size: 16px;
+  row-gap: 12px;
+}
+
 .header__menu-link {
 text-decoration: none;
 color: #fff;
